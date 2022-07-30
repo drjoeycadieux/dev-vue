@@ -6,8 +6,8 @@ import { RouterLink, } from 'vue-router'
 <template>
     <div class="navbar">
  <ul>
-    <li><router-link style="color: black; font-family: sans-serif; text-decoration: none;" to="/">Home</router-link></li>
-    <li><router-link style="color: black; font-family: sans-serif; text-decoration: none;" to="/about">About</router-link></li>
+    <li><router-link style="color: black; font-family: sans-serif; text-decoration: none; font-weight: bold;" to="/">Home</router-link></li>
+    <li><router-link style="color: black; font-family: sans-serif; text-decoration: none; font-weight: bold;" to="/about">About</router-link></li>
  </ul>
     </div>
 </template>
