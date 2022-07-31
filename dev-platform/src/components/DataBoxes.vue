@@ -1,5 +1,9 @@
 <script setup>
-
+const covidQuebec = [
+  {
+    cases: 55
+  }
+]
 </script>
 
 <template>
@@ -7,8 +11,8 @@
     <div class="container text-center">
   <div class="row">
     <div class="col">
-      <div  class="data">
-        hello
+      <div v-for="CovidQuebec in CovidQuebec" :key="CovidQuebec" class="data">
+        {{CovidQuebec}}
       </div>
     </div>
     <div class="col">
