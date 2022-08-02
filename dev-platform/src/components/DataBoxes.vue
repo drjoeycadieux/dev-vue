@@ -12,7 +12,7 @@ const covidQuebec = [
   <div class="row">
     <div class="col">
       <div v-for="CovidQuebec in CovidQuebec" :key="CovidQuebec" class="data">
-        {{CovidQuebec}}
+        {{ CovidQuebec }}
       </div>
     </div>
     <div class="col">
